@@ -21,27 +21,17 @@ def aes_ecb_decrypt(key, encrypted):
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
-
-
     error = None
-
     if request.method == 'POST':
 
         key = b'aaaaaaaaaaaaaaaa'
-        # test = aes_ecb_decrypt(key,request.form['is_admin'])
-        #is_admin = request.cookies.get('is_admin')  # 获取 is_admin 的 cookie 值
-      #  if len(is_admin)<32:
-          #  is_admin="f2bb04721fe671a106bd5008c197fca5"
-      #  else:
-         #   is_admin = request.cookies.get('is_admin')[0:32]  # 获取 is_admin 的 cookie 值
-
         if request.cookies.get('is_admin'):
             is_admin = request.cookies.get('is_admin')
             test = aes_ecb_decrypt(key, is_admin)
             if test == '1':  # 如果 is_admin 的值是 '1'，则显示 flag
                 flag = 'flag{testforecbvulnerability} '
                 return render_template('login.html', flag=flag)
-
+            return render_template('login.html', flag="flag")
 
         elif request.form['username'] == 'admin' and request.form['password'] == 'admin':
             flag = 'flag{} '
@@ -54,10 +44,7 @@ def login():
             encrypted = aes_ecb_encrypt(key, data)
 
             return render_template('login.html', error=error + encrypted)
-
-
-
-
+    return render_template('login.html')  # 添加了一个默认的返回值，以防任何其他情况
 
 
 @app.route('/home')
