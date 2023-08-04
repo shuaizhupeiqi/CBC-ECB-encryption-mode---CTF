@@ -28,7 +28,7 @@ def login():
         if request.cookies.get('is_admin'):
             is_admin = request.cookies.get('is_admin')
             test = aes_ecb_decrypt(key, is_admin)
-            if test == '1':  # 如果 is_admin 的值是 '1'，则显示 flag
+            if test == '1':  
                 flag = 'flag{testforecbvulnerability} '
                 return render_template('login.html', flag=flag)
             return render_template('login.html', flag="flag")
@@ -44,7 +44,7 @@ def login():
             encrypted = aes_ecb_encrypt(key, data)
 
             return render_template('login.html', error=error + encrypted)
-    return render_template('login.html')  # 添加了一个默认的返回值，以防任何其他情况
+    return render_template('login.html') 
 
 
 @app.route('/home')
