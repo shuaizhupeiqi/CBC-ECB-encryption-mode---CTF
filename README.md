@@ -1,2 +1,3 @@
-# ECB-encryption
-ECB encryption
+CBC and ECB encryption mode - CTF
+
+
