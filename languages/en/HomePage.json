@@ -1,0 +1,9 @@
+{
+  "translation": {
+    "SampleText": "This is the home page of the product, please create corresponding components in the components folder and import them into home page and listed here",
+    "HssDividerLabel": "HSS Value & Risk",
+    "current": "Now",
+    "maxLabel": "Max",
+    "currentMax": "Now is Max"
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "translation": {
+    "ManageYourProfile": "账号管理",
+    "Hello": "您好",
+    "NotVerifiedNote": "您的账号还未被验证, 请验证您的邮箱并重新登陆",
+    "ResendLink": "重新发送链接",
+    "BackToHomePageButton": "返回主页",
+    "LoginButton": "登录以同步您的云端数据",
+    "SignOut": "退出登录",
+    "SaveYourChanges": "保存您的更改",
+    "FormSizeLabel": "表格尺寸",
+    "FormSizeButtonSmall": "小",
+    "FormSizeButtonMiddle": "中",
+    "FormSizeButtonLarge": "大",
+    "yes": "是",
+    "no": "否",
+    "LanguageSelector": "语言设置:",
+    "FormLabel": "个性化您的设置:",
+    "SignOutConfirmTitle": "退出登录",
+    "SignOutConfirmDescription": "您确定要退出登陆吗?",
+    "SignOutOkText": "是",
+    "SignOutCancelText": "否",
+    "Alert": {
+      "Success": {
+        "SettingSavedTitle": "已保存设置",
+        "SettingSavedDescription": "您的个性化设置已保存",
+        "SignOutSuccessTitle": "成功退出登陆",
+        "SignOutSuccessDescription": "成功退出登陆.",
+        "LoginSuccessTitle": "成功登陆",
+        "LoginSuccessDescription": "成功登陆."
+      },
+      "Error": {
+        "SaveFailedTitle": "保存失败",
+        "SignOutErrorTitle": "退出登陆失败",
+        "SignOutErrorDescription": "出错了.",
+        "SomethingWentWrongTitle": "出错了.",
+        "SaveDataErrorDescription": "出错了, 云端数据同步失败."
+      },
+      "Info": {
+        "EmailverficationTitle": "邮箱验证",
+        "EmailverficationDescription": "验证邮件已发送到您的邮箱, 请验证后登陆.",
+        "SettingSavedTitle": "更改已保存",
+        "SettingSavedAskToVeriftyDescription": "验证您的邮箱已同步云端数据.",
+        "LoginToSaveYourDataDescription": "登陆已同步云端数据."
+      }
+    }
+  },
+  "data": [
+    {
+      "label": "选择您的年龄段:",
+      "optionType": "tags",
+      "name": "ageGroup",
+      "options": [
+        {
+          "label": "<18",
+          "value": {
+            "label": "<18",
+            "w": 0.8
+          }
+        },
+        {
+          "label": "18 - 65",
+          "value": {
+            "label": "18 - 65",
+            "w": 1
+          }
+        },
+        {
+          "label": ">65",
+          "value": {
+            "label": ">65",
+            "w": 0.8
+          }
+        }
+      ]
+    },
+    {
+      "label": "您是否有慢性疾病?",
+      "optionType": "tags",
+      "name": "isIllness",
+      "options": [
+        {
+          "label": "是",
+          "value": {
+            "label": "yes",
+            "w": 0.8
+          }
+        },
+        {
+          "label": "否",
+          "value": {
+            "label": "no",
+            "w": 1
+          }
+        }
+      ]
+    },
+    {
+      "label": "您是否属于下面的高危人群?",
+      "optionType": "multiple",
+      "name": "riskGroup",
+      "options": [
+        {
+          "label": "超重人群",
+          "value": {
+            "label": "people who are overweigh",
+            "w": 0.8
+          }
+        },
+        {
+          "label": "孕妇或正母乳喂养",
+          "value": {
+            "label": "pregnant women and breastfeeding mothers",
+            "w": 0.8
+          }
+        }
+      ]
+    },
+    {
+      "label": "您是否在使用任何的药物?",
+      "optionType": "tags",
+      "name": "isTakingMedication",
+      "options": [
+        {
+          "label": "是",
+          "value": {
+            "label": "yes",
+            "w": 0.9
+          }
+        },
+        {
+          "label": "否",
+          "value": {
+            "label": "no",
+            "w": 1
+          }
+        }
+      ]
+    }
+  ]
+}

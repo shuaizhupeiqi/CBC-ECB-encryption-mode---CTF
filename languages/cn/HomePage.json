@@ -1,0 +1,9 @@
+{
+  "translation": {
+    "SampleText": "这是一个测试语句",
+    "HssDividerLabel": "HSS数值 & 风险",
+    "current": "当前",
+    "maxLabel": "今日最高",
+    "currentMax": "当前为最高"
+  }
+}

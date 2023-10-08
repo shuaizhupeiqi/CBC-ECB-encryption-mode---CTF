@@ -1,0 +1,240 @@
+{
+  "detailedRecommendationTips": {
+    "Low": {
+      "tips": [
+        {
+          "icon": "/icons/water-bottle.png",
+          "label": "KeeyHydrated",
+          "riskLevel": "Low"
+        },
+        {
+          "icon": "/icons/tank-top.png",
+          "label": "WearLight",
+          "riskLevel": "Low"
+        },
+        {
+          "icon": "/icons/fan.png",
+          "label": "UseFan",
+          "riskLevel": "Low"
+        },
+        {
+          "icon": "/icons/blinds.png",
+          "label": "UseBlind",
+          "riskLevel": "Low"
+        },
+        {
+          "icon": "/icons/ventilation.png",
+          "label": "OpenWindow",
+          "riskLevel": "Low"
+        },
+        {
+          "icon": "/icons/ac.png",
+          "label": "UseAC",
+          "riskLevel": "Low"
+        },
+        {
+          "icon": "/icons/evaporative.png",
+          "label": "UseEvaporative",
+          "riskLevel": "Low"
+        }
+      ]
+    },
+    "Moderate": {
+      "tips": [
+        {
+          "icon": "/icons/water-bottle.png",
+          "label": "DrinkWater",
+          "riskLevel": "Moderate"
+        },
+        {
+          "icon": "/icons/tank-top.png",
+          "label": "WearLight",
+          "riskLevel": "Moderate"
+        },
+        {
+          "icon": "/icons/fan.png",
+          "label": "UseFan",
+          "riskLevel": "Moderate"
+        },
+        {
+          "icon": "/icons/lounger.png",
+          "label": "RestMore",
+          "riskLevel": "Moderate"
+        },
+        {
+          "icon": "/icons/no-running.png",
+          "label": "NotRunning",
+          "riskLevel": "Moderate"
+        },
+        {
+          "icon": "/icons/squeeze.png",
+          "label": "SoakWet",
+          "riskLevel": "Moderate"
+        },
+        {
+          "icon": "/icons/fan.png",
+          "label": "UseMistFan",
+          "riskLevel": "Moderate"
+        },
+        {
+          "icon": "/icons/blinds.png",
+          "label": "UseBlind",
+          "riskLevel": "Moderate"
+        },
+        {
+          "icon": "/icons/ventilation.png",
+          "label": "OpenWindow",
+          "riskLevel": "Moderate"
+        },
+        {
+          "icon": "/icons/ac.png",
+          "label": "UseAC",
+          "riskLevel": "Moderate"
+        },
+        {
+          "icon": "/icons/evaporative.png",
+          "label": "UseEvaporative",
+          "riskLevel": "Moderate"
+        }
+      ]
+    },
+    "High": {
+      "tips": [
+        {
+          "icon": "/icons/water-bottle.png",
+          "label": "DrinkWater",
+          "riskLevel": "High"
+        },
+        {
+          "icon": "/icons/spray.png",
+          "label": "KeepSkinWet",
+          "riskLevel": "High"
+        },
+        {
+          "icon": "/icons/tank-top.png",
+          "label": "WearLight",
+          "riskLevel": "High"
+        },
+        {
+          "icon": "/icons/fan.png",
+          "label": "UseFan",
+          "riskLevel": "High"
+        },
+        {
+          "icon": "/icons/lounger.png",
+          "label": "RestMore",
+          "riskLevel": "High"
+        },
+        {
+          "icon": "/icons/no-running.png",
+          "label": "NotRunning",
+          "riskLevel": "High"
+        },
+        {
+          "icon": "/icons/squeeze.png",
+          "label": "SoakWet",
+          "riskLevel": "High"
+        },
+        {
+          "icon": "/icons/fan.png",
+          "label": "UseMistFan",
+          "riskLevel": "High"
+        },
+        {
+          "icon": "/icons/blinds.png",
+          "label": "UseBlind",
+          "riskLevel": "High"
+        },
+        {
+          "icon": "/icons/ventilation.png",
+          "label": "OpenWindow",
+          "riskLevel": "High"
+        },
+        {
+          "icon": "/icons/ac.png",
+          "label": "UseAC",
+          "riskLevel": "High"
+        },
+        {
+          "icon": "/icons/evaporative.png",
+          "label": "UseEvaporative",
+          "riskLevel": "High"
+        }
+      ]
+    },
+    "Extreme": {
+      "tips": [
+        {
+          "icon": "/icons/water-bottle.png",
+          "label": "DrinkWater",
+          "riskLevel": "Extreme"
+        },
+        {
+          "icon": "/icons/spray.png",
+          "label": "KeepSkinWet",
+          "riskLevel": "Extreme"
+        },
+        {
+          "icon": "/icons/tank-top.png",
+          "label": "WearLight",
+          "riskLevel": "Extreme"
+        },
+        {
+          "icon": "/icons/fan.png",
+          "label": "UseFan",
+          "riskLevel": "Extreme"
+        },
+        {
+          "icon": "/icons/lounger.png",
+          "label": "RestMore",
+          "riskLevel": "Extreme"
+        },
+        {
+          "icon": "/icons/no-running.png",
+          "label": "NotRunning",
+          "riskLevel": "Extreme"
+        },
+        {
+          "icon": "/icons/squeeze.png",
+          "label": "SoakWet",
+          "riskLevel": "Extreme"
+        },
+        {
+          "icon": "/icons/fan.png",
+          "label": "UseMistFan",
+          "riskLevel": "Extreme"
+        },
+        {
+          "icon": "/icons/blinds.png",
+          "label": "UseBlind",
+          "riskLevel": "Extreme"
+        },
+        {
+          "icon": "/icons/ventilation.png",
+          "label": "OpenWindow",
+          "riskLevel": "Extreme"
+        },
+        {
+          "icon": "/icons/ac.png",
+          "label": "UseAC",
+          "riskLevel": "Extreme"
+        },
+        {
+          "icon": "/icons/evaporative.png",
+          "label": "IceCubes",
+          "riskLevel": "Extreme"
+        },
+        {
+          "icon": "/icons/ice-cubes.png",
+          "label": "UseEvaporative",
+          "riskLevel": "Extreme"
+        },
+        {
+          "icon": "/icons/warm-water.png",
+          "label": "PlaceYourFeetInBucket",
+          "riskLevel": "Extreme"
+        }
+      ]
+    }
+  }
+}

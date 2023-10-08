@@ -1,0 +1,150 @@
+{
+  "translation": {
+    "ManageYourProfile": "Manage your profile",
+    "Hello": "Hello",
+    "NotVerifiedNote": "Your account is not verified, please verify your email and login again.",
+    "ResendLink": "Resend Link",
+    "BackToHomePageButton": "Home Page",
+    "LoginButton": "Login/Signin",
+    "SignOut": "Sign Out",
+    "SaveYourChanges": "Save your changes",
+    "FormSizeLabel": "Form Size",
+    "FormSizeButtonSmall": "Small",
+    "FormSizeButtonMiddle": "Middle",
+    "FormSizeButtonLarge": "Large",
+    "yes": "yes",
+    "no": "no",
+    "LanguageSelector": "Change Language:",
+    "FormLabel": "Personalize your setting:",
+    "SignOutConfirmTitle": "Sign out",
+    "SignOutConfirmDescription": "Are you sure to sign out?",
+    "SignOutOkText": "Yes",
+    "SignOutCancelText": "No",
+    "LoggedInText":"Your information will get protection",
+    "NotLoginText":"You haven't log in, please login to unlock the function of multiple profile ",
+    "CardContentOne":"Set individual data",
+    "CardContentOneText":"Setting your personal information and get your personalised HSS data.",
+    "CardContentTwo":"Set Language",
+    "CardContentTwoText":"Change the language for your own, Chinese or English",
+    "CardContentThree":"Manage multiple profiles",
+    "CardContentThreeTextDisabled":"Please login/signin to activate this function, compare your family's HSS data.",
+      
+    "Alert": {
+      "Success": {
+        "SettingSavedTitle": "Settings Saved",
+        "SettingSavedDescription": "All your personalized settings are now saved.",
+        "SignOutSuccessTitle": "Sign out successfully",
+        "SignOutSuccessDescription": "Successfully signed out.",
+        "LoginSuccessTitle": "Login successfully",
+        "LoginSuccessDescription": "Successfully logged in."
+      },
+      "Error": {
+        "SaveFailedTitle": "Save failed",
+        "SignOutErrorTitle": "Sign out failed",
+        "SignOutErrorDescription": "Something went wrong.",
+        "SomethingWentWrongTitle": "Something went wrong.",
+        "SaveDataErrorDescription": "Something went wrong, data is not saved in the cloud."
+      },
+      "Info": {
+        "EmailverficationTitle": "Email Verification",
+        "EmailverficationDescription": "A verification email has been sent to your email address. Please verify your email to log in.",
+        "SettingSavedTitle": "Settings Saved",
+        "SettingSavedAskToVeriftyDescription": "Verfiy your email to save your data into cloud.",
+        "LoginToSaveYourDataDescription": "Login to save your data into cloud."
+      }
+    }
+  },
+  "data": [
+    {
+      "label": "Select your age group:",
+      "optionType": "tags",
+      "name": "ageGroup",
+      "options": [
+        {
+          "label": "<18",
+          "value": {
+            "label": "<18",
+            "w": 0.8
+          }
+        },
+        {
+          "label": "18 - 65",
+          "value": {
+            "label": "18 - 65",
+            "w": 1
+          }
+        },
+        {
+          "label": ">65",
+          "value": {
+            "label": ">65",
+            "w": 0.8
+          }
+        }
+      ]
+    },
+    {
+      "label": "Do you have any chronic illnesses?",
+      "optionType": "tags",
+      "name": "isIllness",
+      "options": [
+        {
+          "label": "yes",
+          "value": {
+            "label": "yes",
+            "w": 0.8
+          }
+        },
+        {
+          "label": "no",
+          "value": {
+            "label": "no",
+            "w": 1
+          }
+        }
+      ]
+    },
+    {
+      "label": "Are you in any this groups at greater risk?",
+      "optionType": "multiple",
+      "name": "riskGroup",
+      "options": [
+        {
+          "label": "people who are overweigh",
+          "value": {
+            "label": "people who are overweigh",
+            "w": 0.8
+          }
+        },
+        {
+          "label": "pregnant women and breastfeeding mothers",
+          "value": {
+            "label": "pregnant women and breastfeeding mothers",
+            "w": 0.8
+          }
+        }
+      ]
+    },
+    {
+      "label": "Are you taking any medications?",
+      "optionType": "tags",
+      "name": "isTakingMedication",
+      "options": [
+        {
+          "label": "yes",
+          "value": {
+            "label": "yes",
+            "w": 0.9
+          }
+        },
+        {
+          "label": "no",
+          "value": {
+            "label": "no",
+            "w": 1
+          }
+        }
+      ]
+    }
+  ]
+}

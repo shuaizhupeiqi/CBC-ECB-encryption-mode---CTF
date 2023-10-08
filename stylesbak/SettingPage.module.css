@@ -1,0 +1,43 @@
+#NotVerfiedHeader {
+  width: 97%;
+  background-color: salmon;
+  margin-top: 1%;
+  border-radius: 10px;
+  padding-left: 3%;
+  color: white;
+}
+
+#resendLink {
+  cursor: pointer;
+  text-decoration: underline;
+  color: blue;
+}
+
+#loginSignUpbutton {
+  background-color: grey;
+  color: white;
+  font-weight: bold;
+}
+
+#homePageButton {
+  background-color: grey;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+}
+
+#userNameDivider {
+  height: 5%;
+  margin-bottom: 1%;
+}
+
+#profilebutton {
+  background-color: grey;
+  color: white;
+  font-weight: bold;
+}
+
+.fixed {
+  width: 100vw;
+  position: fixed;
+}

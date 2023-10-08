@@ -1,0 +1,10 @@
+.scrollablePopupContent {
+  max-height: 80vh;
+  /* Adjust the height as desired */
+  max-width: 90vw;
+  /* Adjust the width as desired */
+  overflow-y: auto;
+  /* Enable vertical scrolling */
+  overflow-x: hidden;
+  /* Hide horizontal scrolling */
+}

@@ -1,0 +1,121 @@
+.ageGroupRiskLevelInnerDiv {
+  border-radius: 5px;
+  width: 120px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.ageGroupRiskLevelInnerDivMobile {
+  border-radius: 5px;
+  width: 100px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+  font-size: smaller;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+
+/*.iconPopoverDiv {*/
+/*  width: 100%;*/
+/*}*/
+
+/*.ageGroupLabelDiv {*/
+/*  font-weight: bold;*/
+/*  font-size: 15px;*/
+/*}*/
+
+/*.parentDiv {*/
+/*  display: flex;*/
+/*  justify-content: space-between;*/
+/*  align-items: center;*/
+/*  width: 100%;*/
+/*}*/
+
+/*.riskLabelDiv {*/
+/*  margin-right: 10px;*/
+/*}*/
+
+.Col {
+  width: 60%;
+}
+
+.ageRiskColRowLandScape {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.mobileMainRow {
+  width: 100%;
+}
+
+.ageRiskColRowMobile {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#mainDiv {
+  width: 100%;
+  margin-bottom: 2%;
+  margin-top: 1%;
+}
+
+#mainRow {
+  width: 95%;
+}
+
+.ageGroupLabelRow {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.rowCenter {
+  display: flex;
+  align-items: center;
+}
+
+.iconDiv {
+  display: flex;
+  justify-content: right;
+  align-items: flex-end;
+  width: 40%;
+}
+
+.iconDivMobile {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  margin-top: 2%;
+}
+
+.infoIcon {
+  margin-left: 5px;
+}
+
+@media screen and (max-width: 1090px) {
+  .ageGroupRiskLevelInnerDiv {
+    width: 80px;
+  }
+}
+
+@media screen and (max-width: 733px) {
+  .ageGroupRiskLevelInnerDivMobile {
+    width: 70px;
+  }
+}

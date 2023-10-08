@@ -1,0 +1,20 @@
+#space {
+  display: flex;
+}
+
+#dataLabelsDiv {
+  width: 100%;
+  height: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#dateLabelToday {
+  width: 50%;
+}
+
+#dateLabelTomorrow {
+  width: 50%;
+  text-align: right;
+}

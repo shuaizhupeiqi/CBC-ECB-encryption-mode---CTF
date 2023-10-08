@@ -1,0 +1,190 @@
+.cover {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(3px);
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.validationCard {
+  /* position: absolute; */
+  width: 50%;
+  /* text-align: center; */
+
+  background: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-top: 5vh; */
+}
+
+#mainSubDiv {
+  margin-left: 5%;
+}
+
+.link {
+  cursor: pointer;
+  text-decoration: underline;
+  color: blue;
+}
+
+#manageProfileTitle {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#emailDiv {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: left;
+  align-items: center;
+}
+
+#phoneDiv {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: left;
+  align-items: center;
+}
+
+#verifiedRow {
+  border-radius: 10px;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.verifyLabel {
+  font-size: 10px;
+}
+
+.verifiedIconDiv {
+  margin-left: 2%;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: white;
+}
+
+.verifiedDivClass {
+  background-color: #4caf50;
+}
+
+.notVerifiedDivClass {
+  background-color: #d72323;
+}
+
+.icon {
+  font-size: 10px;
+}
+
+#unSubscribeDiv {
+  width: 100%;
+}
+
+#unSubscribeDivRow {
+  width: 85%;
+  justify-content: space-between;
+}
+
+.text {
+  font-size: 18px;
+}
+
+.areSubsribedText {
+  font-size: 15px;
+}
+
+#closeProfilePageIconRow {
+  height: 1vh;
+  width: 98%;
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  margin-top: 2%;
+}
+
+#closeProfilePageIconDiv {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: grey;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#closeProfilePageIcon {
+  font-size: 20px;
+}
+
+.editIcon {
+  margin-left: 2%;
+  font-size: 20px;
+}
+
+#emailNotVerifiedPhoneWarningDiv {
+  text-align: left;
+}
+
+@media screen and (max-width: 830px) {
+  #closeProfilePageIconDiv {
+    width: 20px;
+    height: 20px;
+  }
+
+  #closeProfilePageIcon {
+    font-size: 15px;
+  }
+
+  #manageProfileTitle {
+    font-size: 18px;
+  }
+
+  .text {
+    font-size: 15px;
+  }
+
+  #areSubsribedText {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .validationCard {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .validationCard {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 405px) {
+  .validationCard {
+    width: 90%;
+  }
+}

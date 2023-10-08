@@ -1,0 +1,73 @@
+{
+  "translation": {
+    "PhoneNumber": "电话:",
+    "UpdatePhoneNumber": "更新电话",
+    "Save": "保存",
+    "AreYouSureToUpdatePhoneNumber": "您确定要更新您的电话为 ",
+    "NoPhoneFound": "没有找到您的号码",
+    "YouAreSubscribedForPhone": "您已订阅短信通知.",
+    "WouldYouLikeSMSNotification": "您要订阅短信通知吗?",
+    "AreYouSureToUnsubscribeSMS": "您确定要订阅短信通知吗?",
+    "AreYouSureToSubscribeSMS": "您确定要订阅短信通知吗?",
+    "EmailHaveBeenVerified": "您已验证您的邮箱",
+    "YouHaventVerifiedYet": "您还未验证您的邮箱!",
+    "UserName": "用户名",
+    "Email": "邮箱",
+    "Verified": "已验证",
+    "NotVerified": "未验证",
+    "AreYouSureToUnsubscribe": "您是否要取消订阅邮箱通知?",
+    "Confirm": "确定",
+    "Cancel": "取消",
+    "AreYouSureToSubscribe": "您是否要订阅邮箱通知?",
+    "HaventVerifyAccountYet": "您还未验证您的邮箱, 请验证后再订阅.",
+    "YouAreSubscibed": "您已订阅邮件通知",
+    "Unsubscribe": "取消订阅",
+    "Subscribe": "订阅",
+    "WouldYouLikeToSubscribe": "您是否要订阅邮件通知? ",
+    "ManageProfile": "账号管理",
+    "SignOut": "退出登录",
+    "yes": "是",
+    "no": "否",
+    "LanguageSelector": "语言设置:",
+    "FormLabel": "个性化您的设置:",
+    "SignOutConfirmTitle": "退出登录",
+    "SignOutConfirmDescription": "您确定要退出登陆吗?",
+    "SignOutOkText": "是",
+    "SignOutCancelText": "否",
+    "Alert": {
+      "Success": {
+        "UpdatePhoneSuccessTitle": "成功更新您的电话号码",
+        "SubscribePhoneDesctiption": "成功订阅短信通知: ",
+        "UnsubscribePhoneDesctiption": "成功取消订阅短信通知: ",
+        "UnsubscribeTitle": "成功取消订阅",
+        "UnsubscribeDescription": "您已成功取消订阅当前的邮箱: ",
+        "SubscribeTitle": "成功订阅",
+        "SubsribeDescription": "您已成功订阅当前邮箱: ",
+        "SettingSavedTitle": "已保存设置",
+        "SettingSavedDescription": "您的个性化设置已保存",
+        "SignOutSuccessTitle": "成功退出登陆",
+        "SignOutSuccessDescription": "成功退出登陆.",
+        "LoginSuccessTitle": "成功登陆",
+        "LoginSuccessDescription": "成功登陆."
+      },
+      "Error": {
+        "DuplicatePhoneNumberTitle": "重复号码",
+        "DuplicatePhoneNumberDescription": "这和您的当前号码重复. 请用一个新的号码.",
+        "InvalidPhoneNumber": "电话号码无效.",
+        "FetchingProfile": "无法读取您的数据",
+        "SaveFailedTitle": "保存失败",
+        "SignOutErrorTitle": "退出登陆失败",
+        "SignOutErrorDescription": "出错了.",
+        "SomethingWentWrongTitle": "出错了.",
+        "SaveDataErrorDescription": "出错了, 云端数据同步失败."
+      },
+      "Info": {
+        "EmailverficationTitle": "邮箱验证",
+        "EmailverficationDescription": "验证邮件已发送到您的邮箱, 请验证后登陆.",
+        "SettingSavedTitle": "更改已保存",
+        "SettingSavedAskToVeriftyDescription": "验证您的邮箱已同步云端数据.",
+        "LoginToSaveYourDataDescription": "登陆已同步云端数据."
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "translation": {
+    "Low": "低",
+    "Medium": "中",
+    "High": "高",
+    "Extreme": "极端",
+    "NowLabel": "当前",
+    "MaxLabel": "最高",
+    "NowIsMaxLabel": "当前是最高"
+  }
+}

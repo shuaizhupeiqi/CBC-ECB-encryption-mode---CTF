@@ -1,0 +1,97 @@
+{
+  "allGeneralTips": {
+    "low": [
+      {
+        "icon": "/icons/water-bottle.png",
+        "label": "DrinkWaterTip",
+        "key": "low_tip1"
+      },
+      {
+        "icon": "/icons/tshirt.png",
+        "label": "LightClothTip",
+        "key": "low_tip2"
+      }
+    ],
+    "moderate": [
+      {
+        "icon": "/icons/water-bottle.png",
+        "label": "DrinkWaterTip",
+        "key": "med_tip1"
+      },
+      {
+        "icon": "/icons/tshirt.png",
+        "label": "LightClothTip",
+        "key": "med_tip2"
+      },
+      {
+        "icon": "/icons/alone.png",
+        "label": "TakeBreakTip",
+        "key": "med_tip3"
+      },
+      {
+        "icon": "/icons/spray.png",
+        "label": "WetSkinTip",
+        "key": "med_tip4"
+      }
+    ],
+    "high": [
+      {
+        "icon": "/icons/water-bottle.png",
+        "label": "DrinkWaterTip",
+        "key": "high_tip1"
+      },
+      {
+        "icon": "/icons/tshirt.png",
+        "label": "LightClothTip",
+        "key": "high_tip2"
+      },
+      {
+        "icon": "/icons/alone.png",
+        "label": "TakeBreakTip",
+        "key": "high_tip3"
+      },
+      {
+        "icon": "/icons/spray.png",
+        "label": "WetSkinTip",
+        "key": "high_tip4"
+      },
+      {
+        "icon": "/icons/squeeze.png",
+        "label": "WetSkinTip",
+        "key": "high_tip5"
+      }
+    ],
+    "extreme": [
+      {
+        "icon": "/icons/water-bottle.png",
+        "label": "DrinkWaterTip",
+        "key": "extreme_tip1"
+      },
+      {
+        "icon": "/icons/tshirt.png",
+        "label": "LightClothTip",
+        "key": "extreme_tip2"
+      },
+      {
+        "icon": "/icons/alone.png",
+        "label": "TakeBreakTip",
+        "key": "extreme_tip3"
+      },
+      {
+        "icon": "/icons/spray.png",
+        "label": "WetSkinTip",
+        "key": "extreme_tip4"
+      },
+      {
+        "icon": "/icons/gazebo.png",
+        "label": "StayInShade",
+        "key": "extreme_tip5"
+      },
+      {
+        "icon": "/icons/water.png",
+        "label": "IceInWetTowel",
+        "key": "extreme_tip6"
+      }
+    ]
+  }
+}

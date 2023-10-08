@@ -1,0 +1,11 @@
+{
+  "translation": {
+    "Low": "Low",
+    "Medium": "Moderate",
+    "High": "High",
+    "Extreme": "Extreme",
+    "NowLabel": "Now",
+    "MaxLabel": "Max",
+    "NowIsMaxLabel": "Now Is Max"
+  }
+}

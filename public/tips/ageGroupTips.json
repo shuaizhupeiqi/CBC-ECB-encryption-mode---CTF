@@ -1,0 +1,72 @@
+{
+  "ageGroupTips": {
+    "High": [
+      {
+        "label": "HealthAdultLabel",
+        "tip": "HealthAdultHighTip",
+        "key": "highAgeTip1"
+      },
+      {
+        "label": "HealtherOlderLabel",
+        "tip": "HealthOlderHighTip",
+        "key": "highAgeTip2"
+      },
+      {
+        "label": "PeopleWithIllnessesLabel",
+        "tip": "PeopleWithIllnessesHighTip",
+        "key": "highAgeTip3"
+      }
+    ],
+    "Moderate": [
+      {
+        "label": "HealthAdultLabel",
+        "tip": "HealthAdultModerateTip",
+        "key": "medAgeTip1"
+      },
+      {
+        "label": "HealtherOlderLabel",
+        "tip": "HealthOlderModerateTip",
+        "key": "medAgeTip2"
+      },
+      {
+        "label": "PeopleWithIllnessesLabel",
+        "tip": "PeopleWithIllnessesModerateTip",
+        "key": "medAgeTip3"
+      }
+    ],
+    "Low": [
+      {
+        "label": "HealthAdultLabel",
+        "tip": "HealthAdultLowTip",
+        "key": "lowAgeTip1"
+      },
+      {
+        "label": "HealtherOlderLabel",
+        "tip": "HealthOlderLowTip",
+        "key": "lowAgeTip2"
+      },
+      {
+        "label": "PeopleWithIllnessesLabel",
+        "tip": "PeopleWithIllnessesLowTip",
+        "key": "lowAgeTip3"
+      }
+    ],
+    "Extreme": [
+      {
+        "label": "HealthAdultLabel",
+        "tip": "HealthAdultExtremeTip",
+        "key": "extremeAgeTip1"
+      },
+      {
+        "label": "HealtherOlderLabel",
+        "tip": "HealthOlderExtremeTip",
+        "key": "extremeAgeTip2"
+      },
+      {
+        "label": "PeopleWithIllnessesLabel",
+        "tip": "PeopleWithIllnessesExtremeTip",
+        "key": "extremeAgeTip3"
+      }
+    ]
+  }
+}

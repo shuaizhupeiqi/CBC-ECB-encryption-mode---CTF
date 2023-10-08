@@ -1,0 +1,34 @@
+{
+  "generalTips": [
+    {
+      "icon": "/icons/water-bottle.png",
+      "label": "DrinkWaterTip",
+      "key": "extreme_tip1"
+    },
+    {
+      "icon": "/icons/tshirt.png",
+      "label": "LightClothTip",
+      "key": "extreme_tip2"
+    },
+    {
+      "icon": "/icons/alone.png",
+      "label": "TakeBreakTip",
+      "key": "extreme_tip3"
+    },
+    {
+      "icon": "/icons/spray.png",
+      "label": "WetSkinTip",
+      "key": "extreme_tip4"
+    },
+    {
+      "icon": "/icons/gazebo.png",
+      "label": "StayInShade",
+      "key": "extreme_tip5"
+    },
+    {
+      "icon": "/icons/water.png",
+      "label": "IceInWetTowel",
+      "key": "extreme_tip6"
+    }
+  ]
+}

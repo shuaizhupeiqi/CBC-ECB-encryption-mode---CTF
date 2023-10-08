@@ -1,0 +1,49 @@
+.ExtremeLevel {
+  background-color: #d72323;
+}
+
+.HighLevel {
+  background-color: orange;
+}
+
+.ModerateLevel {
+  background-color: #fdda0d;
+}
+
+.LowLevel {
+  background-color: #4caf50;
+}
+
+.WebsiteTheme {
+  background-color: #e64626;
+}
+
+.generalDivider {
+  border: 0.5px solid #949494;
+  margin: 1px 0;
+  width: 98%;
+}
+
+.greenButton {
+  background-color: #4caf50;
+  color: white;
+  font-weight: bold;
+}
+
+.greyButton {
+  background-color: grey;
+  color: white;
+  font-weight: bold;
+}
+
+.whiteButton {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+
+.blueButton {
+  background-color: lightskyblue;
+  color: white;
+  font-weight: bold;
+}

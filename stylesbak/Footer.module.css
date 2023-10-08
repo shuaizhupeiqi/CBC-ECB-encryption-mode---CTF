@@ -1,0 +1,11 @@
+#layout {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#mainRow {
+  width: 91%;
+  margin-right: 2%;
+}

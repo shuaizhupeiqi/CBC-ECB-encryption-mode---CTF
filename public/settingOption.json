@@ -1,0 +1,86 @@
+{
+  "settings": [
+    {
+      "label": "Select your age group:",
+      "optionType": "tags",
+      "name": "ageGroup",
+      "options": [
+        {
+          "label": "<18",
+          "value": {
+            "w": 0.8
+          }
+        },
+        {
+          "label": "18 - 65",
+          "value": {
+            "w": 1
+          }
+        },
+        {
+          "label": ">65",
+          "value": {
+            "w": 0.8
+          }
+        }
+      ]
+    },
+    {
+      "label": "Do you have any chronic illnesses?",
+      "optionType": "tags",
+      "name": "isIllness",
+      "options": [
+        {
+          "label": "yes",
+          "value": {
+            "w": 0.8
+          }
+        },
+        {
+          "label": "no",
+          "value": {
+            "w": 1
+          }
+        }
+      ]
+    },
+    {
+      "label": "Are you in any this groups at greater risk?",
+      "optionType": "multiple",
+      "name": "riskGroup",
+      "options": [
+        {
+          "label": "people who are overweigh",
+          "value": {
+            "w": 0.8
+          }
+        },
+        {
+          "label": "pregnant women and breastfeeding mothers",
+          "value": {
+            "w": 0.8
+          }
+        }
+      ]
+    },
+    {
+      "label": "Are you taking any medications?",
+      "optionType": "tags",
+      "name": "isTakingMedication",
+      "options": [
+        {
+          "label": "yes",
+          "value": {
+            "w": 0.9
+          }
+        },
+        {
+          "label": "no",
+          "value": {
+            "w": 1
+          }
+        }
+      ]
+    }
+  ]
+}

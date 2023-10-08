@@ -1,0 +1,254 @@
+#publicDisplayContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#publicDisplayInnerContainer {
+  width: 90%;
+  margin-top: 2%;
+}
+
+.riskTipCol {
+  width: 100%;
+  margin-bottom: 2%;
+  margin-top: 1%;
+}
+
+.generalTipRow {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+#currentRiskLabelRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+
+.riskLevelHeader {
+  height: 5px;
+  margin-right: 10px;
+}
+
+.riskLevelLabel {
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-left: 1%;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  height: 25px;
+}
+
+#currentRiskLabelMaxRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+}
+
+.riskLevelHeaderTodayMax {
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+.riskLevelTodayMaxLabel {
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-left: 1%;
+}
+
+.riskLevelHeaderTodayMaxTime {
+  margin-left: 1%;
+  font-size: 15px;
+}
+
+.forcastRow {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.forcastLevelMainRow {
+  height: 30px;
+  width: 10%;
+  justify-content: space-between;
+}
+
+.forcastLevelMainRowLabel {
+  text-align: center;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.maxRiskLevelDiv {
+  border-radius: 5px;
+  text-align: center;
+  min-width: 70px;
+  height: 55%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.maxRiskLevelText {
+  color: white;
+  font-weight: bold;
+}
+
+.detailedRecommendatonMainDiv {
+  width: 100%;
+}
+
+.detailedRecommendatonRow {
+  width: 100%;
+}
+
+.detailedRecommendatonImageCol {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: right;
+  width: 15%;
+}
+
+.detailedRecommendatonTextCol {
+  width: 80%;
+}
+
+.detailedRecommendationText {
+  margin-left: 2%;
+}
+
+#container {
+  width: 100%;
+  margin-bottom: 1%;
+}
+
+#coloredDiv {
+  /* min-height: 25vh; */
+  width: 100%;
+  border-radius: 15px;
+  /* margin-top: 1%; */
+  margin-bottom: 1%;
+}
+
+#personalizedButton {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.collapseForecast {
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 1590px) {
+  .forcastLevelMainRow {
+    height: 30px;
+    width: 12%;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 1297px) {
+  .forcastLevelMainRow {
+    height: 30px;
+    width: 18%;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 1219px) {
+  .detailedRecommendatonImageCol {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: right;
+    width: 10%;
+  }
+  .detailedRecommendatonTextCol {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 1032px) {
+  .forcastLevelMainRow {
+    height: 30px;
+    width: 19%;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 925px) {
+  .forcastLevelMainRow {
+    height: 30px;
+    width: 20%;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 866px) {
+  .forcastLevelMainRow {
+    height: 30px;
+    width: 25%;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 686px) {
+  .forcastLevelMainRow {
+    height: 30px;
+    width: 30%;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .forcastLevelMainRow {
+    height: 30px;
+    width: 35%;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .forcastLevelMainRow {
+    height: 30px;
+    width: 40%;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .forcastLevelMainRow {
+    height: 30px;
+    width: 45%;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .forcastLevelMainRow {
+    height: 30px;
+    width: 52%;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .forcastLevelMainRow {
+    height: 30px;
+    width: 60%;
+    justify-content: space-between;
+  }
+}
